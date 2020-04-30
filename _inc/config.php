@@ -10,7 +10,7 @@ error_reporting(-1);
 require_once 'vendor/autoload.php';
 
 //global variable
-$base_url = 'http://www.todoapp.wz.cz';
+$base_url = 'http://www.todoapp.xf.cz';
 
 // Using Medoo namespace
 use Medoo\Medoo;
@@ -18,9 +18,9 @@ use Medoo\Medoo;
 // connect to db
 $database = new Medoo([
 	'database_type' => 'mysql',
-	'database_name' => 'todoappwzcz1787',
+	'database_name' => 'todoappxfcz4385',
 	'server'        => 'sql4.webzdarma.cz',
-	'username'      => 'todoappwzcz1787',
-	'password'      => '^1%lgBQjo4DoAr1LrnR@',
+	'username'      => 'todoappxfcz4385',
+	'password'      => '7cvR7e#)#z5@5$2-&xk@',
 	'charset'       => 'utf8'
 ]);

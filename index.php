@@ -23,7 +23,7 @@
         <p class="form-group">
             <textarea class="form-control" name="message" id="text" rows="3" placeholder="co chceš přidat?"></textarea>
         </p>
-         <p class="form-group">
+         <p class="form-group button">
             <input class="btn-sm btn-success" type="submit" value="přidat item">
         </p>
     </form>
