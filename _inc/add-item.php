@@ -3,7 +3,9 @@
 	// include
 	require 'config.php';
 
+
 //funkce ochrany
+
 function sql_ochrana($text)
 {
 	($text);
@@ -16,10 +18,12 @@ function sql_ochrana($text)
 $text = sql_ochrana($_POST["message"]);
 
 
+
 // add new stuff
 $id = $database->insert('items', [
 	'text' =>   $text
 ]);
+
 
 	// success
 	if ( $id ) {
